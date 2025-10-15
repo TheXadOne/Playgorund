@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Table assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #fff;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-bottom: 40px;
+        }
+
+        caption {
+            text-align: left;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #6bbdc3;
+            color: white;
+        }
+
+        /* Alternating row colors */
+        tr:nth-child(even) {
+            background-color: #ffd8d8;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #dfffe1;
+        }
+
+
+        th:nth-child(1) {
+            color: #FFD700;
+        }
+
+        th:nth-child(2) {
+            color: #FF7043;
+        }
+
+        th:nth-child(3) {
+            color: #ff0404;
+        }
+
+        th:nth-child(4) {
+            color: #3030f9;
+        }
+
+        th:nth-child(5) {
+            color: #b352e4;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <table>
+        <caption>
+            Table 1
+        </caption>
+
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>In stock</th>
+        </tr>
+
+        <tr>
+            <td>Coca Cola</td>
+            <td>KES 90</td>
+            <td>10</td>
+            <td>KES 900</td>
+            <td>TRUE</td>
+        </tr>
+
+        <tr>
+            <td>Exercise Book</td>
+            <td>KES 130</td>
+            <td>2</td>
+            <td>KES 260</td>
+            <td>FALSE</td>
+        </tr>
+
+        <tr>
+            <td>iPhone</td>
+            <td>KES 220,000</td>
+            <td>3</td>
+            <td>KES 660,000</td>
+            <td>TRUE</td>
+        </tr>
+
+        <tr>
+            <td>Whiteboard marker</td>
+            <td>KES 65</td>
+            <td>3</td>
+            <td>KES 195</td>
+            <td>FALSE</td>
+        </tr>
+
+    </table>
+
+    <table>
+        <caption>
+            Table 2
+        </caption>
+        <tr>
+            <th>University</th>
+            <th>Location</th>
+            <th>Contacts</th>
+            <th>Courses</th>
+            <th>Intake</th>
+        </tr>
+
+        <tr>
+            <td>Strathmore</td>
+            <td>Nairobi</td>
+            <td>+254 792 388645</td>
+            <td>Business</td>
+            <td>SEPTEMBER</td>
+        </tr>
+
+        <tr>
+            <td>Daystar</td>
+            <td>Athi River</td>
+            <td>+254 734 889876</td>
+            <td>Nursing</td>
+            <td>MAY</td>
+        </tr>
+
+        <tr>
+            <td>Zetech</td>
+            <td>Nairobi</td>
+            <td>+254 750 505782</td>
+            <td>Engineering</td>
+            <td>JANUARY</td>
+        </tr>
+
+         <tr>
+            <td>USIU</td>
+            <td>Nairobi</td>
+            <td>+254 732 202815</td>
+            <td>Law</td>
+            <td>MAY</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
