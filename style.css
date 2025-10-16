@@ -40,4 +40,20 @@ tr:nth-child(2) td:nth-child(5) { background-color: #ead1dc; }
 /* Row 2 cells */
 tr:nth-child(3) td:nth-child(1) { background-color: #fce5cd; }
 tr:nth-child(3) td:nth-child(2) { background-color: #d5a6bd; }
-tr:nth-child(3) td:nth
+tr:nth-child(3) td:nth-child(3) { background-color: #a4c2f4; }
+tr:nth-child(3) td:nth-child(4) { background-color: #b6d7a8; }
+tr:nth-child(3) td:nth-child(5) { background-color: #ffe599; }
+
+/* Row 3 cells */
+tr:nth-child(4) td:nth-child(1) { background-color: #ead1dc; }
+tr:nth-child(4) td:nth-child(2) { background-color: #cfe2f3; }
+tr:nth-child(4) td:nth-child(3) { background-color: #f9cb9c; }
+tr:nth-child(4) td:nth-child(4) { background-color: #b7d7a8; }
+tr:nth-child(4) td:nth-child(5) { background-color: #c9daf8; }
+
+/* Row 4 cells */
+tr:nth-child(5) td:nth-child(1) { background-color: #d9d2e9; }
+tr:nth-child(5) td:nth-child(2) { background-color: #fce5cd; }
+tr:nth-child(5) td:nth-child(3) { background-color: #fff2cc; }
+tr:nth-child(5) td:nth-child(4) { background-color: #d0e0e3; }
+tr:nth-child(5) td:nth-child(5) { background-color: #ead1dc; }
