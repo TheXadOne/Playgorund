@@ -23,36 +23,21 @@ th, td {
     text-align: left;
 }
 
-/* Header row */
-th {
-    background-color: #6bbdc3;
-    color: white;
-}
+/* Unique colors for every header cell */
+th:nth-child(1) { background-color: #ffb3ba; }
+th:nth-child(2) { background-color: #ffdfba; }
+th:nth-child(3) { background-color: #ffffba; }
+th:nth-child(4) { background-color: #baffc9; }
+th:nth-child(5) { background-color: #bae1ff; }
 
-/* Each column cell has a different color */
-td:nth-child(1) {
-    background-color: #fff3cd; /* Light yellow */
-}
+/* Row 1 cells */
+tr:nth-child(2) td:nth-child(1) { background-color: #f4cccc; }
+tr:nth-child(2) td:nth-child(2) { background-color: #ffe599; }
+tr:nth-child(2) td:nth-child(3) { background-color: #c9daf8; }
+tr:nth-child(2) td:nth-child(4) { background-color: #d9ead3; }
+tr:nth-child(2) td:nth-child(5) { background-color: #ead1dc; }
 
-td:nth-child(2) {
-    background-color: #d1ecf1; /* Light cyan */
-}
-
-td:nth-child(3) {
-    background-color: #f8d7da; /* Light red */
-}
-
-td:nth-child(4) {
-    background-color: #d4edda; /* Light green */
-}
-
-td:nth-child(5) {
-    background-color: #e2d6f8; /* Light purple */
-}
-
-/* Header text colors */
-th:nth-child(1) { color: #FFD700; }
-th:nth-child(2) { color: #FF7043; }
-th:nth-child(3) { color: #FF0404; }
-th:nth-child(4) { color: #3030f9; }
-th:nth-child(5) { color: #B352E4; }
+/* Row 2 cells */
+tr:nth-child(3) td:nth-child(1) { background-color: #fce5cd; }
+tr:nth-child(3) td:nth-child(2) { background-color: #d5a6bd; }
+tr:nth-child(3) td:nth
