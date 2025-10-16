@@ -24,14 +24,14 @@ th, td {
 }
 
 /* Unique colors for every header cell */
-th:nth-child(1) { background-color: #ffb3ba; color: #9D00FF;}
+th:nth-child(1) { background-color: #ffb3ba; }
 th:nth-child(2) { background-color: #ffdfba; }
 th:nth-child(3) { background-color: #ffffba; }
 th:nth-child(4) { background-color: #baffc9; }
 th:nth-child(5) { background-color: #bae1ff; }
 
 /* Row 1 cells */
-tr:nth-child(2) td:nth-child(1) { background-color: #f4cccc; }
+tr:nth-child(2) td:nth-child(1) { background-color: #f4cdcc; }
 tr:nth-child(2) td:nth-child(2) { background-color: #ffe599; }
 tr:nth-child(2) td:nth-child(3) { background-color: #c9daf8; }
 tr:nth-child(2) td:nth-child(4) { background-color: #d9ead3; }
