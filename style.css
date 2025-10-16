@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 40px;
     background-color: #fff;
+    font-color: #9D00FF;
 }
 
 table {
@@ -24,7 +25,7 @@ th, td {
 }
 
 /* Unique colors for every header cell */
-th:nth-child(1) { background-color: green; }
+th:nth-child(1) { background-color: #ffb3ba; }
 th:nth-child(2) { background-color: #ffdfba; }
 th:nth-child(3) { background-color: #ffffba; }
 th:nth-child(4) { background-color: #baffc9; }
